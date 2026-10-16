@@ -27,7 +27,7 @@ jobs:
         run: |
           mkdir -p welt vorschau
           unzip -oq "ergebnis/Arnis Torgau.mcworld" -d welt
-          python tools/render.py welt vorschau/torgau_draufsicht.png 2>&1 | tee vorschau/render_log.txt
+          python tools/render_side.py welt vorschau/schloss 690 850 540 690 2>&1 | tee vorschau/render_side_log.txt
 
       - name: Ins Repo legen
         if: always()
