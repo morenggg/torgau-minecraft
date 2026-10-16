@@ -14,7 +14,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    permissions:
+      contents: write
     steps:
+      - uses: actions/checkout@v4
+
       - name: Arnis holen
         run: git clone --depth 1 https://github.com/louis-e/arnis.git
 
@@ -32,13 +36,19 @@ jobs:
         working-directory: arnis
         run: |
           mkdir -p ../out
+          set -o pipefail
           ./target/release/arnis --bedrock \
             --bbox="${{ github.event.inputs.bbox || '51.5555,12.9975,51.5645,13.0130' }}" \
-            --output-dir ../out/Torgau.mcworld
-          ls -la ../out
+            --output-dir ../out/Torgau.mcworld 2>&1 | tee ../out/log.txt
+          ls -la ../out | tee -a ../out/log.txt
 
-      - name: Welt bereitstellen
-        uses: actions/upload-artifact@v4
-        with:
-          name: torgau-mcworld
-          path: out/*.mcworld
+      - name: Ergebnis ins Repo legen
+        if: always()
+        run: |
+          mkdir -p ergebnis
+          cp out/* ergebnis/ 2>/dev/null || true
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add ergebnis
+          git commit -m "Ergebnis ${{ github.run_id }} [skip ci]" || true
+          git push
