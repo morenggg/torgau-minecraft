@@ -1,0 +1,40 @@
+INFO - PyMCTranslate Version 393
+INFO - Loading level welt
+WARNING - Could not find translation information for block minecraft:stone_bricks to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:cracked_stone_bricks to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:mossy_stone_bricks to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:birch_log[pillar_axis="y"] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:chiseled_stone_bricks to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:jungle_log[pillar_axis="y"] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:stone_block_slab[stone_slab_type="stone_brick",top_slot_bit=0b] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:grass_block to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:mud_bricks to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:mud_brick_stairs[upside_down_bit=1b,weirdo_direction=1] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:smooth_sandstone to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:oak_log[pillar_axis="y"] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:azalea_leaves[persistent_bit=1b,update_bit=0b] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:mud_brick_stairs[upside_down_bit=1b,weirdo_direction=0] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:mud_brick_stairs[upside_down_bit=1b,weirdo_direction=2] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:mud_brick_stairs[upside_down_bit=1b,weirdo_direction=3] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:spruce_log[pillar_axis="y"] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:stone_block_slab4[stone_slab_type_4="stone",top_slot_bit=1b] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:stripped_warped_hyphae to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:azalea_leaves_flowered[persistent_bit=1b,update_bit=0b] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:warped_double_slab[top_slot_bit=0b] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:warped_slab[top_slot_bit=0b] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:warped_slab[top_slot_bit=1b] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:stone_block_slab4[stone_slab_type_4="stone",top_slot_bit=0b] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:warped_stairs[upside_down_bit=0b,weirdo_direction=3] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:warped_stairs[upside_down_bit=1b,weirdo_direction=3] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:double_stone_block_slab4[stone_slab_type_4="stone",top_slot_bit=0b] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:sea_lantern to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:deepslate_bricks to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:cobbled_deepslate to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:tuff to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:tinted_glass to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:mud_brick_slab[top_slot_bit=1b] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:acacia_log[pillar_axis="y"] to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:lightning_rod to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+WARNING - Could not find translation information for block minecraft:coarse_dirt to universal in PyMCTranslate.Version(bedrock, (1, 13, 0)). If this is not a vanilla block ignore this message
+Volumen gelesen 154602
+fertig
