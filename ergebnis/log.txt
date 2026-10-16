@@ -12,4 +12,42 @@
                           version 3.3.0
                 https://github.com/louis-e/arnis
         
-Error: Path does not exist: ../out/Torgau.mcworld
+  [+] Fetching Overture Maps data...
+[1/7] Fetching data from the tile archive...
+[3/7] Fetching elevation...
+Fetching canopy height data (Meta/WRI 1m global canopy height)...
+Fetching land cover data (ESA WorldCover 2021)...
+Shoreline reconstruction: 4 rings, 1452 cells to water, 1651 cells to land
+Canopy height data loaded: 1 tile, canopy over 3m on 10.8% of the area, mean 10.1m, tallest 29m
+Land cover data loaded successfully
+Using Mapterhorn terrain tiles (global; high-res where available)
+Read 4 tiles (0.5 MB) from the archive
+Downloading 12 elevation tiles from Mapterhorn at z16 (up to 8 concurrent)...
+Sampling 12 Mapterhorn tiles into 1072x1001 grid...
+Land cover repair: leveled 4 water component(s), 93574 surface cells flattened, 7 off-surface cells kept as terrain
+Land cover repair: reclassified 7 LC_WATER cells not on the water surface (embankments / piers / shoreline walls)
+Land cover repair: built-up Gaussian smoothing σ=30.01 cells applied to 877965 built-up + feathered cells (632542 core built-up cells)
+Land cover repair: pulled 60734 coastal land cells toward water (within 25 cells); kept 0 cells above 15 m as real cliffs
+Realistic elevation: 17.8m range fits in 360 available blocks
+[2/7] Parsing data...
+Bounding box: LLBBox { min: LLPoint { lat: 51.5555, lng: 12.9975 }, max: LLPoint { lat: 51.5645, lng: 13.013 } }
+  Filled heights on 123 OSM buildings from Overture Maps
+  Added 48 buildings from Overture Maps
+OSM land override: 740 shore cells reclassified from ESA water to land
+Bridge LC repair: 5960 cells reclassified (1927 to water)
+[4/7] Transforming map...
+Region tree pack loaded: realm eur - 355 regional trees (16 communities) + 114 vanilla sprinkle trees (13 communities)
+  ecoregions: 1 mapped, 4 extra communities (0 trees)
+  size tiers [schems]: small 58 [on], medium 138 [on], big 169 [on], tall 72 [on], giant 32 [on]
+  ecoregion: Central European mixed forests
+[4/7] Processing data...
+[5/7] Generating area...
+[6/7] Generating ground...
+Generating world for: Bedrock Edition (.mcworld)
+[7/7] Saving Bedrock world...
+Done! Bedrock world saved to: /home/runner/work/torgau-minecraft/torgau-minecraft/out/Arnis Torgau.mcworld
+total 4140
+drwxr-xr-x 2 runner runner    4096 Oct 16 22:22 .
+drwxr-xr-x 7 runner runner    4096 Oct 16 22:22 ..
+-rw-r--r-- 1 runner runner 4225081 Oct 16 22:22 Arnis Torgau.mcworld
+-rw-r--r-- 1 runner runner    3296 Oct 16 22:22 log.txt
