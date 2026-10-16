@@ -1,0 +1,44 @@
+name: Torgau Minecraft-Welt bauen
+
+on:
+  workflow_dispatch:
+    inputs:
+      bbox:
+        description: "Gebiet: min_lat,min_lng,max_lat,max_lng"
+        default: "51.5555,12.9975,51.5645,13.0130"
+  push:
+    paths:
+      - ".github/workflows/torgau.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Arnis holen
+        run: git clone --depth 1 https://github.com/louis-e/arnis.git
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: arnis
+
+      - name: Arnis bauen (nur Kommandozeile)
+        working-directory: arnis
+        run: cargo build --release --no-default-features
+
+      - name: Torgau generieren (Bedrock)
+        working-directory: arnis
+        run: |
+          mkdir -p ../out
+          ./target/release/arnis --bedrock \
+            --bbox="${{ github.event.inputs.bbox || '51.5555,12.9975,51.5645,13.0130' }}" \
+            --output-dir ../out/Torgau.mcworld
+          ls -la ../out
+
+      - name: Welt bereitstellen
+        uses: actions/upload-artifact@v4
+        with:
+          name: torgau-mcworld
+          path: out/*.mcworld
